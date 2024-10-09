@@ -145,6 +145,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: space-between;
 }
 
 .header-close-btn {
@@ -165,11 +166,23 @@ body {
     background-color: inherit;
 }
 
+.mobile-nav {
+    margin-bottom: 168px;
+}
+
 .mobile-nav-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 168px;
+}
+
+.mobile-menu-address {
+    font-style: normal;
+    margin-bottom: 48px;
+}
+
+.mobile-social-list {
+    margin-bottom: 16px;
 }
 
 .mobile-nav-item-link {
@@ -190,7 +203,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .mobile-menu-address-link {
@@ -576,6 +588,13 @@ body {
         display: flex;
     }
 
+    .contact-info {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+
     .contact-info-addres {
         display: flex;
         align-items: center;
@@ -854,6 +873,11 @@ body {
     padding: 96px 0;
 }
 
+.team-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-headder {
     font-weight: 700;
     font-size: 36px;
@@ -872,7 +896,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -883,14 +906,13 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 8px;
 }
 
 .social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 .team-items {
@@ -1132,6 +1154,7 @@ li:hover .portfolio-image .portfolio-paragraph {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -1216,7 +1239,7 @@ li:hover .portfolio-image .portfolio-paragraph {
         align-items: baseline;
         row-gap: 72px;
         column-gap: 24px;
-        margin-left: 108px;
+        padding-left: 108px;
     }
 
     .footer-logo-div {
@@ -1262,6 +1285,7 @@ li:hover .portfolio-image .portfolio-paragraph {
         align-items: baseline;
         flex-wrap: nowrap;
         gap: 0;
+        padding-left: 16px;
     }
 
     .footer-media-div {
